@@ -1,10 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package movieapp;
 import java.util.ArrayList;
+
+/**
+ * The program MovieApp allows a user to query a database of 100 movies based
+ * on the movie category (animated, drama, horror, musical, or scifi). It fetches
+ * the data through the MovieIO class to populate an ArrayList with Movie objects.
+ * It then prompts the user to choose a category, prints the title of each movie
+ * in that category, and prompts the user to continue with another query, or
+ * quit the program.
+ * @author wilcoxp3
+ */
 public class MovieApp
 {
     public static void main(String[] args)
