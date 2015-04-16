@@ -1,6 +1,10 @@
 
 package movieapp;
-
+/**
+ * The MovieIO class contains the data for the MovieApp program to access. Each
+ * case returns a new Movie object and sets the title and category.
+ * @author wilcoxp3
+ */
 public class MovieIO
     {
     public static int NUM_OF_MOVIES = 100;
