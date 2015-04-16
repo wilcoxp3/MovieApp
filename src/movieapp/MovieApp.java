@@ -33,10 +33,10 @@ public class MovieApp
         {   
             //get the category choice from the user
             System.out.println("What category are you interested in?\n"
-                    + "     Press 1 for animated\n"
-                    + "     Press 2 for drama\n"
-                    + "     Press 3 for horror\n"
-                    + "     Press 4 for musical\n"
+                    + "     Press 1 for Animated\n"
+                    + "     Press 2 for Drama\n"
+                    + "     Press 3 for Horror\n"
+                    + "     Press 4 for Musical\n"
                     + "     Press 5 for SciFi");
             int movieChoice = Validation.getInt("Enter a number 1-5: ", 1, 5);
             
@@ -47,6 +47,7 @@ public class MovieApp
             //After the user has entered a valid category, prompt to continue.
             if (!Validation.getContinue("\nContinue? (y/n): "))
             {
+                System.out.println("Thank you for using the Movie List Application.");
                 break;
             }
         }
