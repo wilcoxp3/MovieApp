@@ -3,7 +3,7 @@ package movieapp;
 import java.util.ArrayList;
 
 /**
- * The program MovieApp allows a user to query a database of 100 movies based
+ * The program MovieApp allows a user to query a database of movies based
  * on the movie category (animated, drama, horror, musical, or scifi). It fetches
  * the data through the MovieIO class to populate an ArrayList with Movie objects.
  * It then prompts the user to choose a category, prints the title of each movie
