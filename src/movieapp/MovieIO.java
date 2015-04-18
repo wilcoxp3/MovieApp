@@ -3,8 +3,8 @@ package movieapp;
 /**
  * The MovieIO class contains the data for the MovieApp program to access. Each
  * case in the static method getMovie returns a new Movie object and sets the 
- * title and category. In addition, I have added the static constant NUM_OF_MOVIES 
- * to make it easier to change the number of movies stored in this class.
+ * title and category. In addition, the static constant NUM_OF_MOVIES was added
+ * to make it easier to change the number of movies stored in this class in needed.
  * @author wilcoxp3
  */
 public class MovieIO
